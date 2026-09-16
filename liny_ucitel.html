@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liny ucitel</title>
+</head>
+<body>
+    <script>
+        // let zaci = ["Adam", "Klara", "Martin", "Eva", "Lukas", "Petra", "Jakub", "Hana", "Michal", "Veronika"]
+        // function zadej_znamku(){
+        let kdo = window.prompt("Zadej jméno žáka:")
+        let znamka = Math.floor(Math.random() * 5 + 1);
+        alert("Známka " + kdo + " je: " + znamka)
+        
+        if(znamka === 1){
+            document.body.style.backgroundColor = "green";
+        } else if (znamka === 2){
+            document.body.style.backgroundColor = "yellow";
+        } else if (znamka === 3){
+            document.body.style.backgroundColor = "orange";
+        } else if (znamka === 4){
+            document.body.style.backgroundColor = "red";
+        } else if (znamka === 5){
+            document.body.style.backgroundColor = "darkred";
+        }
+    // }
+
+        // } else {
+        //     let pridat = window.prompt("Žák " + kdo + " není v seznamu. Přidat ho?: ")
+        //     if (pridat === "ano") {
+        //         zaci.push(kdo)
+        //         alert("Žák " + kdo + " byl přidán do seznamu. Známka " + kdo + " je: ")
+        //     } else if (pridat === "ne") {
+        //         alert("Žák " + kdo + " nebyl přidán do seznamu.")
+        //     }
+        // }
+    </script>
+</body>
+</html>
